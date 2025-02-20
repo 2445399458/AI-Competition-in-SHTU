@@ -14,5 +14,24 @@ pip install -r requirements.txt
 
 &emsp;&emsp;densenet预训练权重链接：https://storage.googleapis.com/tensorflow/keras-applications/densenet/densenet201_weights_tf_dim_ordering_tf_kernels_notop.h5
 
-&emsp;&emsp;下载完两个权重文件后，将其放与
+&emsp;&emsp;下载完两个权重文件后，将其分别重命名为efficientnet7.h5和DenseNet201.h5，将其放与ipynb文件同级即可。
+
+## 下载数据集
+&emsp;&emsp;数据集链接https://epan.shanghaitech.edu.cn/l/IFD6ag (提取码：edhy)（provided by cuda out of memory team）
+
+&emsp;&emsp;下载完上面需要的文件后，项目结构应该如下所示：
+```mermaid
+graph TD
+    project --> README
+    project --> ai-competition-in-shtu.ipynb
+    project --> requirements.txt
+    project --> checkpoints
+    project --> train_images
+    project --> test_images
+    project --> train.csv
+    project --> test.csv
+    project --> efficientnet7.h5
+    project --> DenseNet201.h5
+    
+|
 
