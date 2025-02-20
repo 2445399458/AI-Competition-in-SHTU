@@ -36,5 +36,6 @@ graph TD
 &emsp;&emsp;checkpoints文件是模型训练生成的保存最优模型的文件夹。
 
 ## 模型训练与评估
-&emsp;&emsp;将下载好的文件放在上面项目结构图所示的位置上，一键运行ipynb文件即可，因为最后提交的方案是比赛结束前两天的方案，参数记得咋训练的，但不确定efficientnet的学习率方案是哪个呢，如果最后生成的submmision与本人kaggle不一致，请将文件下面这一行代码注释取消，并重新训练一下efficientnet，将最佳模型权重覆盖掉之前训练的模型权重，如果给你的复现工作带来了麻烦，非常抱歉。
+&emsp;&emsp;将下载好的文件放在上面项目结构图所示的位置上，一键运行ipynb文件即可，因为最后提交的方案是比赛结束前两天的方案，参数记得咋训练的，但不确定efficientnet的学习率方案是哪个呢，如果最后生成的submmision与本人kaggle不一致，请将ipynb文件中下面这一行对应的代码注释取消，并重新训练一下efficientnet，将最佳模型权重覆盖掉之前训练的模型权重，如果给你的复现工作带来了麻烦，非常抱歉。
+
 `# models = load_and_fit_models('efficientnet',myepoch=80,mypatience=30)`
