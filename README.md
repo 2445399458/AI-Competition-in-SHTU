@@ -17,7 +17,7 @@ pip install -r requirements.txt
 &emsp;&emsp;下载完两个权重文件后，将其分别重命名为efficientnet7.h5和DenseNet201.h5，将其放与ipynb文件同级即可。
 
 ## 下载数据集
-&emsp;&emsp;数据集链接https://www.kaggle.com/datasets/hongori/the-1st-datatech-alchemist-cup-public-dataset，点击download下载数据，将压缩包解压到工程目录即可。
+&emsp;&emsp;数据集链接：[the-1st-datatech-alchemist-cup-public-dataset](https://www.kaggle.com/datasets/hongori/the-1st-datatech-alchemist-cup-public-dataset)，点击download下载数据，将压缩包解压到工程目录即可。
 
 &emsp;&emsp;下载完上面需要的文件后，项目结构应该如下所示：
 ```mermaid
