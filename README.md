@@ -32,6 +32,6 @@ graph TD
     project --> test.csv
     project --> efficientnet7.h5
     project --> DenseNet201.h5
-    
-|
+```
+&emsp;&emsp;checkpoints文件是模型训练生成的保存最优模型的文件夹。
 
